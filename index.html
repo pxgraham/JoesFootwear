@@ -6,135 +6,296 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href=".\styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <style>
-body,h1 {font-family: "Montserrat", sans-serif}
-img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
+  body,
+  h1 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
 </style>
+
 <body>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
-  </div>
-</nav>
+  <!-- Sidebar -->
+  <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+      class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    </div>
+  </nav>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-content" style="max-width:1500px">
 
-<!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
-  <h1><b>Joe's Footwear</b></h1>
-  <p><b>Shop for all of your Footwear needs</b></p>
-  <!-- <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p> -->
-</header>
-</div>
+    <!-- Header -->
+    <div class="w3-opacity">
+      <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+      <div class="w3-clear"></div>
+      <header class="w3-center w3-margin-bottom">
+        <h1><b>Joe's Footwear</b></h1>
+        <p><b>Shop for all of your Footwear needs</b></p>
+        <!-- <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p> -->
+      </header>
+    </div>
 
-<!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
+    <!-- Photo Grid -->
+    <!-- <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+      <div class="w3-third">
         <img src="https://m.media-amazon.com/images/I/51SeF25Wn4L.jpg" style="width:80%">
-    <p>Not Rated Black Bastin $15<p/>
-    <img src="https://m.media-amazon.com/images/I/51K6b3D+G3L.jpg" style="width:80%">
-    Sarah Jayne Jodie Infant US 4 White Espadrille $15
-  
-    <img src="https://m.media-amazon.com/images/I/61Vq6v5p3sL.jpg" style="width:80%">
-    Sarah Jayne Willow Infant US 3 Brown Ankle Boot $15
+        <p>Not Rated Black Bastin $15
+          <p />
+          <img src="https://m.media-amazon.com/images/I/51K6b3D+G3L.jpg" style="width:80%">
+          Sarah Jayne Jodie Infant US 4 White Espadrille $15
+
+          <img src="https://m.media-amazon.com/images/I/61Vq6v5p3sL.jpg" style="width:80%">
+          Sarah Jayne Willow Infant US 3 Brown Ankle Boot $15
+
+          <img
+            src="https://cdn.shopify.com/s/files/1/2100/4797/products/windy-shoes-journee-collection-795611_650x.jpg?v=1585885542"
+            style="width:80%">
+          <img
+            src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/13068122_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$"
+            style="width:80%">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81J7DZ-dzKL._AC_UY395_.jpg" style="width:50%">
+          <img src="https://m.media-amazon.com/images/I/81Uu79gvD4L._AC_UL320_.jpg" style="width:50%">
+          Journee Collection Kane Borwn 9.5 $40
+          <img src=" https://m.media-amazon.com/images/I/81ZDUuwRGNL._AC_UL320_.jpg" style="width:50%">
+          Journee Collection Slant Chestnut 8 $40
+          <img src="https://m.media-amazon.com/images/I/61IQ4Md0rtL._AC_UL320_.jpg" style="width:80%">
+          <img src="https://m.media-amazon.com/images/I/51qD690r22L._AC_UL320_.jpg" style="width:80%">
+          <img src="https://m.media-amazon.com/images/I/418JS1zHjwL._AC_UL320_.jpg" style="width:80%">
+          <img src="https://m.media-amazon.com/images/I/51qD690r22L._AC_UL320_.jpg" style="width:80%">
+          Sarah Jayne Rockit Cognac Round Toe $15 Size:5M/2M
+
+          <img src="https://m.media-amazon.com/images/I/418JS1zHjwL._AC_UL320_.jpg" style="width:80%">
+          Sarah Jayne Meg Tan $15 Size:8M/7M
+          <img src="https://images-na.ssl-images-amazon.com/images/I/31S1cURb9tL._AC_US218_.jpg" style="width:80%">
+          Sarah Jayne Toddler Ballet Flats Pewter $10 Size:5M/2M
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51g5jS4-vdL._AC_US218_.jpg" style="width:80%">
+
+        -->
+    <div class="container" class="text-center">
+
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/51SeF25Wn4L.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Not Rated Black Bastin $15</p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://m.media-amazon.com/images/I/51K6b3D+G3L.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Sarah Jayne Jodie Infant US 4 White Espadrille $15</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/61Vq6v5p3sL.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/2100/4797/products/windy-shoes-journee-collection-795611_650x.jpg?v=1585885542" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                (put information here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/13068122_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81J7DZ-dzKL._AC_UY395_.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                (put information here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/81Uu79gvD4L._AC_UL320_.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://m.media-amazon.com/images/I/81ZDUuwRGNL._AC_UL320_.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                (put information here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/61IQ4Md0rtL._AC_UL320_.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://m.media-amazon.com/images/I/51qD690r22L._AC_UL320_.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                (put information here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/418JS1zHjwL._AC_UL320_.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://m.media-amazon.com/images/I/51qD690r22L._AC_UL320_.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                (put information here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://m.media-amazon.com/images/I/418JS1zHjwL._AC_UL320_.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem; padding: 10px;">
+            <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/31S1cURb9tL._AC_US218_.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                (put information here)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; padding: 10px;">
+              <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51g5jS4-vdL._AC_US218_.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  (put information here)
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+    </div>
+
     
-    <img src="https://cdn.shopify.com/s/files/1/2100/4797/products/windy-shoes-journee-collection-795611_650x.jpg?v=1585885542" style="width:80%">
-    <img src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/13068122_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$" style="width:80%">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/81J7DZ-dzKL._AC_UY395_.jpg" style="width:50%"> 
-    <img src="https://m.media-amazon.com/images/I/81Uu79gvD4L._AC_UL320_.jpg" style="width:50%">
-    Journee Collection Kane Borwn 9.5 $40
-    <img src=" https://m.media-amazon.com/images/I/81ZDUuwRGNL._AC_UL320_.jpg" style="width:50%">
-    Journee Collection Slant Chestnut 8 $40
-    <img src="https://m.media-amazon.com/images/I/61IQ4Md0rtL._AC_UL320_.jpg" style="width:80%">
-    <img src="https://m.media-amazon.com/images/I/51qD690r22L._AC_UL320_.jpg" style="width:80%">
-    <img src="https://m.media-amazon.com/images/I/418JS1zHjwL._AC_UL320_.jpg" style="width:80%">
-    <img src="https://m.media-amazon.com/images/I/51qD690r22L._AC_UL320_.jpg" style="width:80%">
-    Sarah Jayne Rockit Cognac Round Toe $15 Size:5M/2M
-    
-    <img src="https://m.media-amazon.com/images/I/418JS1zHjwL._AC_UL320_.jpg" style="width:80%">
-    Sarah Jayne Meg Tan $15 Size:8M/7M
-    <img src="https://images-na.ssl-images-amazon.com/images/I/31S1cURb9tL._AC_US218_.jpg" style="width:80%">
-    Sarah Jayne Toddler Ballet Flats Pewter $10 Size:5M/2M
-    <img src="https://images-na.ssl-images-amazon.com/images/I/51g5jS4-vdL._AC_US218_.jpg" style="width:80%">
-    
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    
+
   </div>
 
-  <div class="w3-third">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-    <img src="" style="width:80%">
-  </div>
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
 
-  <div class="w3-third">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-  </div>
-</div>
+  <script>
+    // Toggle grid padding
+    function myFunction() {
+      var x = document.getElementById("myGrid");
+      if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+      } else {
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+      }
+    }
 
-<!-- End Page Content -->
-</div>
+    // Open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.width = "100%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
-<script>
-// Toggle grid padding
-function myFunction() {
-  var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
-  } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
-  }
-}
-
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
 
 </body>
+
 </html>

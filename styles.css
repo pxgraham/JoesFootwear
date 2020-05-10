@@ -1,0 +1,12 @@
+/*change width and height of image to 100% to make it actual size*/
+img {
+    width: 200px;
+    height: 200px;
+}
+.card {
+    margin: auto;
+    margin-top: 10px;
+}
+.col-6 {
+    display: flex;
+}
